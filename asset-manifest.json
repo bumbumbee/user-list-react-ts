@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/userList-react-ts/static/css/main.f508be50.chunk.css",
+    "main.js": "/userList-react-ts/static/js/main.a7bd898e.chunk.js",
+    "main.js.map": "/userList-react-ts/static/js/main.a7bd898e.chunk.js.map",
+    "runtime-main.js": "/userList-react-ts/static/js/runtime-main.efe4c189.js",
+    "runtime-main.js.map": "/userList-react-ts/static/js/runtime-main.efe4c189.js.map",
+    "static/js/2.9ad48c3c.chunk.js": "/userList-react-ts/static/js/2.9ad48c3c.chunk.js",
+    "static/js/2.9ad48c3c.chunk.js.map": "/userList-react-ts/static/js/2.9ad48c3c.chunk.js.map",
+    "index.html": "/userList-react-ts/index.html",
+    "static/css/main.f508be50.chunk.css.map": "/userList-react-ts/static/css/main.f508be50.chunk.css.map",
+    "static/js/2.9ad48c3c.chunk.js.LICENSE.txt": "/userList-react-ts/static/js/2.9ad48c3c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efe4c189.js",
+    "static/js/2.9ad48c3c.chunk.js",
+    "static/css/main.f508be50.chunk.css",
+    "static/js/main.a7bd898e.chunk.js"
+  ]
+}
