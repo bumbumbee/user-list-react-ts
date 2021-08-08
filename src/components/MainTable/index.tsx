@@ -40,6 +40,7 @@ const MainTable = () => {
                 <TableHeader/>
                 {filteredUsers.map(user => <TableRow key={user.id} user={user}/>)}
             </div>
+            {filteredUsers.length === 0 && <div className={styles.Loader}/>}
         </>
     );
 };
