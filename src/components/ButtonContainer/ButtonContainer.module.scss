@@ -1,0 +1,41 @@
+.Container {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+  min-width: 120px;
+  justify-content: center;
+  background: #22223b;
+  color: #fff;
+  border-radius: 6px;
+  border: 0;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: #4a4e69;
+  }
+
+  @media (max-width: 578px) {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
