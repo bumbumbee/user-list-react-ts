@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ButtonContainer.module.scss'
 
 interface ButtonProps {
-    onUserFilter: (even?: boolean) => void // function requires argument; does not return anything
+    onUserFilter: (even?: boolean) => void
 }
 
 const ButtonContainer: React.FC<ButtonProps> = ({onUserFilter}) => {

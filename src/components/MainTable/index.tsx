@@ -10,7 +10,7 @@ interface User {
     email: string;
 }
 
-export type UserType = User; // export to avoid redefining User properties in the TableRow component
+export type UserType = User;
 
 const MainTable = () => {
     const [users, setUserList] = useState<User[]>([]);
